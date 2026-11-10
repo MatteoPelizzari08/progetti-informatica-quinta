@@ -11,7 +11,7 @@ $persone = PeopleRepository::getPeople();
 
 echo $template->render('schede',
     [
-        'titolo' => 'Pietre d\'inciampo',
+        'titolo' => 'Informatici famosi',
         'persone' => $persone,
     ]
 );

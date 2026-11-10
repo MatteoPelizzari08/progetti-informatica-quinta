@@ -26,4 +26,9 @@ class PeopleRepository
              ],
      ];
  }
+ static function getPeopleByID(int $id) : array {
+     $persone = self::getPeople();
+     return $persone[$id];
+
+}
 }
