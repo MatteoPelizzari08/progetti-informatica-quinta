@@ -49,11 +49,11 @@ docker build -t didattica-php:latest .
 
 ### 2. Nuovo progetto
 
-Copia la cartella `progetto-template` con un nuovo nome.
+Copia la cartella `primo-progetto` con un nuovo nome.
 
 **Linux/Mac:**
 ```bash
-cp -r progetto-template progetto-nuovo
+cp -r primo-progetto progetto-nuovo
 ```
 
 **Windows (Prompt dei comandi):**

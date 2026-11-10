@@ -155,7 +155,7 @@ docker compose up -d
 
 **Linux/Mac:**
 ```bash
-cp -r progetto-template progetto-nuovo
+cp -r primo-progetto progetto-nuovo
 ```
 
 **Windows (PowerShell):**
@@ -232,7 +232,7 @@ Vantaggi:
 
 ## Piano di lavoro: panoramica
 
-1. Copiare `progetto-template/`
+1. Copiare `primo-progetto`
 2. Aprire la cartella in PHPStorm
 3. Creare e compilare il file `.env` e scrivere schema/seed SQL
 4. Avviare i container
@@ -245,7 +245,7 @@ Vantaggi:
 
 ## Passo 1 — Copiare il template
 
-Copia `progetto-template/` con il nome del nuovo progetto  
+Copia `primo-progetto` con il nome del nuovo progetto  
 (vedi slide precedenti per il comando corretto su Windows/Linux)
 
 ---
@@ -400,7 +400,7 @@ e non viene condivisa nel repository
 
 | Passo | Azione |
 |---|---|
-| 1 | Copiare `progetto-template/` |
+| 1 | Copiare `primo-progetto` |
 | 2 | Aprire la cartella in PHPStorm |
 | 3 | Creare `.env` e scrivere schema SQL e seed  |
 | 4 | eseguire `docker compose up -d` |
