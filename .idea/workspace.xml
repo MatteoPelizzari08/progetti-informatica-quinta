@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1ca300e-fafd-4687-a93a-b4f99d8c3dc0" name="Changes" comment="aggiornamento codice">
-      <change afterPath="$PROJECT_DIR$/progetto-template/scheda.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-template/www/templates/scheda.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-template/www/templates/schede.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto-template/www/public/schede.php" beforeDir="false" afterPath="$PROJECT_DIR$/progetto-template/www/public/schede.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/progetto-template/www/src/Model/PeopleRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/progetto-template/www/src/Model/PeopleRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/progetto-template/www/templates/scheda.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/progetto-template/www/templates/scheda.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +147,7 @@
       <workItem from="1790669405304" duration="4219000" />
       <workItem from="1793698017459" duration="5098000" />
       <workItem from="1794045853085" duration="2122000" />
-      <workItem from="1794301721737" duration="3353000" />
+      <workItem from="1794301721737" duration="4544000" />
     </task>
     <task id="LOCAL-00001" summary="scrittura codice iniziale in html">
       <option name="closed" value="true" />
@@ -248,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794303417753</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="aggiornamento codice">
+      <option name="closed" value="true" />
+      <created>1794305178625</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1794305178625</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

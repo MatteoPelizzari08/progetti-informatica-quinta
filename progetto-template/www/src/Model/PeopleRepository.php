@@ -11,6 +11,8 @@ class PeopleRepository
                  'cognome' => 'Turing',
                  'nazionalita' => 'Inglese',
                  'anno_nascita' => 1912,
+                 'immagine' => 'alan-turing.jpg',
+                 'descrizione-immagine' => 'Foto di Alan Turing quando era al King\'s College',
              ],
              '2' => [
                  'nome' => 'Ada',
