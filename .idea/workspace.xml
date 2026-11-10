@@ -1,38 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1ca300e-fafd-4687-a93a-b4f99d8c3dc0" name="Changes" comment="modifiche effettuate nel codice html">
-      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/biciclette.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/noleggio.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/db-data/load.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/db-init/01_schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/db-init/02_seed.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/docker-compose.override.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/docs/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/www/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/www/conf/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/www/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/www/public/css/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/www/public/img/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/www/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/www/public/js/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/www/src/Controller/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/www/src/Model/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/www/src/Util/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-plates/www/templates/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto-template/www/public/schede.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto-plates/templates/esempio.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto-plates/templates/tabellina.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto-plates/templates/tabelline.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto-plates/www/public/esempio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slides.md" beforeDir="false" afterPath="$PROJECT_DIR$/slides.md" afterDir="false" />
+    <list default="true" id="c1ca300e-fafd-4687-a93a-b4f99d8c3dc0" name="Changes" comment="modificher">
+      <change afterPath="$PROJECT_DIR$/progetto-template/www/src/Model/PeopleRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +62,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Docker.progetto-template: Compose Deployment.executor": "Run",
     "JavaScript Debug.hello-world.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -118,6 +89,29 @@
       <recent name="C:\Users\70606526\PhpstormProjects\PROGETTI-QUINTA-INFORMATICA-nuovo\TAVOLA PITAGORICA\progetto-template\www\public" />
     </key>
   </component>
+  <component name="RunManager" selected="Docker.progetto-template: Compose Deployment">
+    <configuration name="progetto-template: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="progetto-template/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="progetto-template/docker-compose.override.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="progetto-template/docker-compose.override.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.progetto-template: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -141,7 +135,7 @@
       <workItem from="1790669405304" duration="4219000" />
       <workItem from="1793698017459" duration="5098000" />
       <workItem from="1794045853085" duration="2122000" />
-      <workItem from="1794301721737" duration="492000" />
+      <workItem from="1794301721737" duration="1454000" />
     </task>
     <task id="LOCAL-00001" summary="scrittura codice iniziale in html">
       <option name="closed" value="true" />
@@ -215,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790415372884</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="modificher">
+      <option name="closed" value="true" />
+      <created>1794302446897</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1794302446897</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +234,8 @@
     <MESSAGE value="esercizio per inrlfkgmfkls+" />
     <MESSAGE value="esercizio per registrare eventi manuali in html" />
     <MESSAGE value="modifiche effettuate nel codice html" />
-    <option name="LAST_COMMIT_MESSAGE" value="modifiche effettuate nel codice html" />
+    <MESSAGE value="modificher" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificher" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
